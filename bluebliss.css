@@ -6,7 +6,10 @@ html
                          
 body
 {
-  background: $ffffff;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center; 
+background-color:#000000;
   height: 99%;
   margin: 0;
   padding: 0;
@@ -69,6 +72,7 @@ font-weight:bold;
 
 #linkGroup
 {
+
 margin-right:10px;
 height:40px;
 width:600px;
@@ -114,7 +118,7 @@ width:560px;
 {
 	position: absolute;
 	vertical-align: middle;
-	background-color:#E7EDF8;
+	background-color:#FFFFFF;
 	width:600px;
 	clear:both;
 }
@@ -148,6 +152,7 @@ color:#BDCDEC;
 #contentBox
 {
 margin-top:25px;
+
 }
 
 
