@@ -66,6 +66,16 @@ li {
 	color: black;
 }
 
+.pageContent
+{
+font-family: Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-size:12px;
+margin-left:20px;
+margin-right:20px;
+width:560px;
+}
+
 /* End of Navigation */
 
 
