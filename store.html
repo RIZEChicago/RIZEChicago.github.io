@@ -1,20 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rize Chicago</title>
-   <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="css/style.css" rel="stylesheet">
-  </head>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Store | Rize Chicago</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="css/other_style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/store.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
 
-  <body style="background-color:white;">
-    <div class="container2">
-	<div>
-     <!-- Logo --> 
-      <div id="logo">
+<body>
+
+<div class="container">
+  <div class="content">
+  	<div id="logo">
          <img src="img/logo/rize_logo.jpg" style="width:300px; height:150px; border: 2px solid black;">
+      </div>
+
+      <div id="viewCart" style="position: fixed; top: 8px; right: 25px;">
+        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+          ">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
       </div>
 
       <!-- Navigation Bar -->
@@ -33,27 +46,21 @@
 	<div class="pageContent">
       <table>
 	<tr>
-	<td><a href="RIZE Box Logo Tee.html"><br><img src="img/Products/RIZE_Box_Logo_Tee.png" style="width:300px; height:300px; border: 2px solid black;"></br>
-		<br>RIZE BOX LOGO TEE</br>
-		<br>$20.00</br></a></td>
+	<td><a href="store/RIZE_Box_Logo_Tee.html"><br><img src="img/Products/RIZE_Box_Logo_Tee.png" style="width:300px; height:300px; border: 2px solid black;"></br>
+		<br><p>RIZE BOX LOGO TEE</p></br>
+		<br><p>$17.99</p></br></a></td>
 
-	<td><a href="RIZE Chicago Tee.html"><br><img src="img/Products/RIZE_Chicago_Tee.png" style="width:300px; height:300px; border: 2px solid black;"></br>
-		<br>RIZE CHICAGO TEE</br>
-		<br>$20.00</br></a></td>
+	<td><a href="store/RIZE_Chicago_Tee.html"><br><img src="img/Products/RIZE_Chicago_Tee.png" style="width:300px; height:300px; border: 2px solid black;"></br>
+		<br><p>RIZE CHICAGO TEE</p></br>
+		<br><p>$17.99</p></br></a></td>
 
-	<td><a href="RIZE One Truth TEE.html"><br><img src="img/Products/RIZE_One_Truth_TEE.png" style="width:300px; height:300px; border: 2px solid black;"></br>
-		<br>RIZE ONE TRUTH TEE</br>
-		<br>$20.00</br></a></td>
+	<td><a href="store/RIZE_One_Truth_Tee.html"><br><img src="img/Products/RIZE_One_Truth_TEE.png" style="width:300px; height:300px; border: 2px solid black;"></br>
+		<br><p>RIZE ONE TRUTH TEE</p></br>
+		<br><p>$17.99</p></br></a></td>
 	</tr>
 	</table>
 	</div>
-</div>
-    </div>
-  
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
-    </div>
-  </body>
+  </div>
+ </div>
+</body>
 </html>
